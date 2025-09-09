@@ -1,0 +1,27 @@
+
+
+html{
+    font-size: 8px;
+}
+
+body{
+    border: 1px solid red ;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024 px;
+    font-family: sans-serif;
+}
+
+
+header{
+    background-color: #d1e3ee;
+}
+
+#logo{
+margin-top: -150px;
+}
+
+header nav ul li{
+    border: 1px solid red;
+    display: inline-block;
+}
