@@ -1,0 +1,31 @@
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0px;
+    max-width: 1024px;
+    width: 1024px;
+    ;
+}
+#first_bike {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 150px
+}
+header nav ul{
+    margin-left: -36px;
+}
+header nav ul li {
+    font-size: 19px;
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0px 6px;
+
+}
+
+.imagenees-chicas-arriba-derecha{
+    width: 30px;
+    margin: 0px 6px;
+    vertical-align: middle;
+    float: right;
+}
