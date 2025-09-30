@@ -1,0 +1,69 @@
+article {
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+#uno {
+    background: red;  /* For browsers that do not support gradients */
+    background: -o-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1),blue); /* Standard syntax (must be last) */
+    background: -moz-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1),blue); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1),blue); /* Standard syntax (must be last) */
+    background: -ms-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1),blue); /* Standard syntax (must be last) */
+    background: linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1),blue); /* Standard syntax (must be last) */
+}
+#dos {
+    background: red;  /* For browsers that do not support gradients */
+    background: -o-linear-gradient(to Left,red,yellow,blue); /* Standard syntax (must be last) */
+    background: -moz-linear-gradient(to Left,red,yellow,blue); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(to Left,red,yellow,blue); /* Standard syntax (must be last) */
+    background: -ms-linear-gradient(to Left,red,yellow,blue); /* Standard syntax (must be last) */
+    background: linear-gradient(to Left,red,yellow,blue); /* Standard syntax (must be last) */
+}
+#tres {
+    background: red;  /* For browsers that do not support gradients */
+    background: -o-linear-gradient(to Right,red,yellow,blue); /* Standard syntax (must be last) */
+    background: -moz-linear-gradient(to Right,red,yellow,blue); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(to Right,red,yellow,blue); /* Standard syntax (must be last) */
+    background: -ms-linear-gradient(to Right,red,yellow,blue); /* Standard syntax (must be last) */
+    background: linear-gradient(to Right,red,yellow,blue); /* Standard syntax (must be last) */
+}
+
+#cuatro {
+    background: red;  /* For browsers that do not support gradients */
+    background: -o-linear-gradient(to Right Bottom,red,yellow, blue); /* Standard syntax (must be last) */
+    background: -moz-linear-gradient(to Right Bottom,red,yellow, blue); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(to Right Bottom,red,yellow, blue); /* Standard syntax (must be last) */
+    background: -ms-linear-gradient(to Right Bottom,red,yellow, blue); /* Standard syntax (must be last) */
+    background: linear-gradient(to Right Bottom,red,yellow, blue); /* Standard syntax (must be last) */
+}
+#cinco {
+    background: red;  /* For browsers that do not support gradients */
+    background: -o-linear-gradient(to Left Bottom,red,yellow, blue); /* Standard syntax (must be last) */
+    background: -moz-linear-gradient(to Left Bottom,red,yellow, blue); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(to Left Bottom,red,yellow, blue); /* Standard syntax (must be last) */
+    background: -ms-linear-gradient(to Left Bottom,red,yellow, blue); /* Standard syntax (must be last) */
+    background: linear-gradient(to Left Bottom,red,yellow, blue); /* Standard syntax (must be last) */
+}
+#seis {
+    background: red;  /* For browsers that do not support gradients */
+    background: -o-linear-gradient(90deg,red,yellow, blue); /* Standard syntax (must be last) */
+    background: -moz-linear-gradient(90deg,red,yellow, blue); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(90deg,red,yellow, blue); /* Standard syntax (must be last) */
+    background: -ms-linear-gradient(90deg,red,yellow, blue); /* Standard syntax (must be last) */
+    background: linear-gradient(90deg,red,yellow, blue); /* Standard syntax (must be last) */
+}
+#siete {
+    background: red;  /* For browsers that do not support gradients */
+    background: -o-repeating-linear-gradient(45deg,black,white,black,20%); /* Standard syntax (must be last) */
+    background: -moz-repeating-linear-gradient(45deg,black,white,black,20%); /* Standard syntax (must be last) */
+    background: -webkit-repeating-linear-gradient(45deg,black,white,black,20%); /* Standard syntax (must be last) */
+    background: -ms-repeating-linear-gradient(45deg,black,white,black,20%); /* Standard syntax (must be last) */
+    background: repeating-linear-gradient(45deg,black,white,black,20%); /* Standard syntax (must be last) */
+}
+
+.texto{
+    position: relative;
+    top: 15px;
+}
