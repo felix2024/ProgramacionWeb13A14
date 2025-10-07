@@ -5,3 +5,20 @@ body{
     margin: 0px auto;
     max-width: 723px;
 }
+header{
+    background: rgb(32, 92,146);
+    padding: 10px 0px;
+    text-align: center;
+
+}
+header .img {
+    width: 150px;
+}
+.navbar{
+    background: rgb(239, 239,239);
+    text-align: right;
+    padding: 10px 5px;
+}
+.navbar img{
+    width: 70px;
+}
