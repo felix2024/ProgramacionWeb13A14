@@ -32,9 +32,17 @@ body{
     font-size: 0.6em;
     padding: 10px 15px;
 }
-
+.contenedor{
+    display: grid;
+    grid-template: 
+    "header header"
+    "navbar narbar"
+    "links principal"
+    "lprogress principal";
+}
 header{
     background: rgb(32, 92,146);
+    grid-area: header;
     padding: 10px 0px;
     text-align: center;
 
@@ -46,6 +54,7 @@ header .img {
     background: rgb(30, 73, 144);
     color: white;
     font-size: 0.6em;
+    grid-area: links;
     width: 150px;
 }
 .links h4{
@@ -64,19 +73,36 @@ header .img {
 
 .navbar{
     background: rgb(239, 239,239);
+    grid-area: navbar;
     text-align: right;
     padding: 10px 5px;
 }
 .navbar img{
     width: 70px;
 }
-.principañtitulos{
-
+.panels{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3,minmax(140px, 1fr));
+    text-align: center;
+}
+.panels img{
+    width: 150px;
+}
+.principal{
+    background: white;
+    grid-area: principal;
+    padding: 5px;
+}
+.principaltitulos{
+    color: rgb(174, 174, 174);
+    font-size: 0.6em;
 }
 .progress{
     background: white;
     color: black;
     font-size: 0.6em;
+    grid-area: lprogress;
     margin-top: 10px;
     text-align: left;
 }
@@ -96,5 +122,24 @@ header .img {
     vertical-align: middle;
     width: 15px;
 }
-
+.usuarios{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.usuarios article{
+    background: rgb(74, 106, 174);
+    color: white;
+    padding: 10px;
+    vertical-align: top;
+}
+.usuarios input{
+    background: rgb(91, 190, 224);
+    border: 1px solid rgb(91, 190, 224);
+    color: white;
+}
+.usuarios img{
+    width: 100px;
+}
 
