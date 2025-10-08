@@ -7,6 +7,7 @@ body{
 }
 .cubes{
     display: grid;
+    gap: 5px;
     grid-template-columns: repeat(4,minmax(140px,1fr));
     text-align: center;
 }
@@ -95,4 +96,5 @@ header .img {
     vertical-align: middle;
     width: 15px;
 }
+
 
