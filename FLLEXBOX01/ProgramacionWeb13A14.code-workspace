@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "ProgramacionWeb13A14",
+			"path": ".."
+		},
+		{
+			"name": "practica05_css 2",
+			"path": "../../../Downloads/practica05_css 2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ProgramacionWeb13A14",
+		"livePreview.defaultPreviewPath": "/Users/ccdm17/Documents/ProgramacionWeb13A14/FLLEXBOX01/index.html"
+	}
+}
