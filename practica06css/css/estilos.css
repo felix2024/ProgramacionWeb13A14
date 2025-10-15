@@ -11,6 +11,7 @@ body{
     font-size: 16px;
     font-family: sans-serif;
     margin: 0px auto;
+    max-width: 1024px;
 }
 
 .header{
@@ -43,9 +44,59 @@ body{
 }
 
 .help{
+    background: var(--color-ayuda);
     height: 200px;
     font-size: 2.5em;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.help input{
+    font-size: 0.5em;
+    height: 50px;
+    width: 400px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 80px;
+}
+.main img {
+    width: 50px;
+
+}
+.main-info{
+    display: flex;
+}
+.main img{
+    margin-right: 10px;
+    width: 50px;
+}
+.main-titulo{
+    font-weight: bold;
+}
+.main-link{
+    color: var(--color-enlace);
+}
+
+.footer{
+    background: var(--color-negro);
+    color: var(--color-blanco);
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.footer article{
+    padding: 20px 0px;
+}
+.footer img{
+    width: 40px;
+}
+
+.copy-info{
+    align-self: flex-end;
 }
